@@ -39,4 +39,5 @@ return YES;
 
 }
 
-
+###效果图
+![Mou icon](https://github.com/mengzhihun6/JGUITextField_FormatNumber/blob/master/JGUITextField_FormatNumber.gif)
