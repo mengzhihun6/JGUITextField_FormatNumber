@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		636596C120E76EF900D6C31B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 636596C020E76EF900D6C31B /* AppDelegate.m */; };
+		636596C420E76EF900D6C31B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636596C320E76EF900D6C31B /* ViewController.m */; };
+		636596C720E76EF900D6C31B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636596C520E76EF900D6C31B /* Main.storyboard */; };
+		636596C920E76EF900D6C31B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636596C820E76EF900D6C31B /* Assets.xcassets */; };
+		636596CC20E76EF900D6C31B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636596CA20E76EF900D6C31B /* LaunchScreen.storyboard */; };
+		636596CF20E76EF900D6C31B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 636596CE20E76EF900D6C31B /* main.m */; };
+		636596D920E76EF900D6C31B /* JGUITextField_FormatNumberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 636596D820E76EF900D6C31B /* JGUITextField_FormatNumberTests.m */; };
+		636596E420E76EF900D6C31B /* JGUITextField_FormatNumberUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 636596E320E76EF900D6C31B /* JGUITextField_FormatNumberUITests.m */; };
+		636596F320E76F2C00D6C31B /* UITextField+JGFormatNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 636596F220E76F2C00D6C31B /* UITextField+JGFormatNumber.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		636596D520E76EF900D6C31B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 636596B420E76EF900D6C31B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 636596BB20E76EF900D6C31B;
+			remoteInfo = JGUITextField_FormatNumber;
+		};
+		636596E020E76EF900D6C31B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 636596B420E76EF900D6C31B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 636596BB20E76EF900D6C31B;
+			remoteInfo = JGUITextField_FormatNumber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		636596BC20E76EF900D6C31B /* JGUITextField_FormatNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGUITextField_FormatNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		636596BF20E76EF900D6C31B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		636596C020E76EF900D6C31B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		636596C220E76EF900D6C31B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		636596C320E76EF900D6C31B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		636596C620E76EF900D6C31B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		636596C820E76EF900D6C31B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		636596CB20E76EF900D6C31B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		636596CD20E76EF900D6C31B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636596CE20E76EF900D6C31B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		636596D420E76EF900D6C31B /* JGUITextField_FormatNumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGUITextField_FormatNumberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		636596D820E76EF900D6C31B /* JGUITextField_FormatNumberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGUITextField_FormatNumberTests.m; sourceTree = "<group>"; };
+		636596DA20E76EF900D6C31B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636596DF20E76EF900D6C31B /* JGUITextField_FormatNumberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGUITextField_FormatNumberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		636596E320E76EF900D6C31B /* JGUITextField_FormatNumberUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGUITextField_FormatNumberUITests.m; sourceTree = "<group>"; };
+		636596E520E76EF900D6C31B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636596F120E76F2C00D6C31B /* UITextField+JGFormatNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+JGFormatNumber.h"; sourceTree = "<group>"; };
+		636596F220E76F2C00D6C31B /* UITextField+JGFormatNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+JGFormatNumber.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		636596B920E76EF900D6C31B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636596D120E76EF900D6C31B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636596DC20E76EF900D6C31B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		636596B320E76EF900D6C31B = {
+			isa = PBXGroup;
+			children = (
+				636596BE20E76EF900D6C31B /* JGUITextField_FormatNumber */,
+				636596D720E76EF900D6C31B /* JGUITextField_FormatNumberTests */,
+				636596E220E76EF900D6C31B /* JGUITextField_FormatNumberUITests */,
+				636596BD20E76EF900D6C31B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		636596BD20E76EF900D6C31B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				636596BC20E76EF900D6C31B /* JGUITextField_FormatNumber.app */,
+				636596D420E76EF900D6C31B /* JGUITextField_FormatNumberTests.xctest */,
+				636596DF20E76EF900D6C31B /* JGUITextField_FormatNumberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		636596BE20E76EF900D6C31B /* JGUITextField_FormatNumber */ = {
+			isa = PBXGroup;
+			children = (
+				636596F420E76F3300D6C31B /* FormatNumber */,
+				636596BF20E76EF900D6C31B /* AppDelegate.h */,
+				636596C020E76EF900D6C31B /* AppDelegate.m */,
+				636596C220E76EF900D6C31B /* ViewController.h */,
+				636596C320E76EF900D6C31B /* ViewController.m */,
+				636596C520E76EF900D6C31B /* Main.storyboard */,
+				636596C820E76EF900D6C31B /* Assets.xcassets */,
+				636596CA20E76EF900D6C31B /* LaunchScreen.storyboard */,
+				636596CD20E76EF900D6C31B /* Info.plist */,
+				636596CE20E76EF900D6C31B /* main.m */,
+			);
+			path = JGUITextField_FormatNumber;
+			sourceTree = "<group>";
+		};
+		636596D720E76EF900D6C31B /* JGUITextField_FormatNumberTests */ = {
+			isa = PBXGroup;
+			children = (
+				636596D820E76EF900D6C31B /* JGUITextField_FormatNumberTests.m */,
+				636596DA20E76EF900D6C31B /* Info.plist */,
+			);
+			path = JGUITextField_FormatNumberTests;
+			sourceTree = "<group>";
+		};
+		636596E220E76EF900D6C31B /* JGUITextField_FormatNumberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				636596E320E76EF900D6C31B /* JGUITextField_FormatNumberUITests.m */,
+				636596E520E76EF900D6C31B /* Info.plist */,
+			);
+			path = JGUITextField_FormatNumberUITests;
+			sourceTree = "<group>";
+		};
+		636596F420E76F3300D6C31B /* FormatNumber */ = {
+			isa = PBXGroup;
+			children = (
+				636596F120E76F2C00D6C31B /* UITextField+JGFormatNumber.h */,
+				636596F220E76F2C00D6C31B /* UITextField+JGFormatNumber.m */,
+			);
+			path = FormatNumber;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		636596BB20E76EF900D6C31B /* JGUITextField_FormatNumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 636596E820E76EF900D6C31B /* Build configuration list for PBXNativeTarget "JGUITextField_FormatNumber" */;
+			buildPhases = (
+				636596B820E76EF900D6C31B /* Sources */,
+				636596B920E76EF900D6C31B /* Frameworks */,
+				636596BA20E76EF900D6C31B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JGUITextField_FormatNumber;
+			productName = JGUITextField_FormatNumber;
+			productReference = 636596BC20E76EF900D6C31B /* JGUITextField_FormatNumber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		636596D320E76EF900D6C31B /* JGUITextField_FormatNumberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 636596EB20E76EF900D6C31B /* Build configuration list for PBXNativeTarget "JGUITextField_FormatNumberTests" */;
+			buildPhases = (
+				636596D020E76EF900D6C31B /* Sources */,
+				636596D120E76EF900D6C31B /* Frameworks */,
+				636596D220E76EF900D6C31B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				636596D620E76EF900D6C31B /* PBXTargetDependency */,
+			);
+			name = JGUITextField_FormatNumberTests;
+			productName = JGUITextField_FormatNumberTests;
+			productReference = 636596D420E76EF900D6C31B /* JGUITextField_FormatNumberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		636596DE20E76EF900D6C31B /* JGUITextField_FormatNumberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 636596EE20E76EF900D6C31B /* Build configuration list for PBXNativeTarget "JGUITextField_FormatNumberUITests" */;
+			buildPhases = (
+				636596DB20E76EF900D6C31B /* Sources */,
+				636596DC20E76EF900D6C31B /* Frameworks */,
+				636596DD20E76EF900D6C31B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				636596E120E76EF900D6C31B /* PBXTargetDependency */,
+			);
+			name = JGUITextField_FormatNumberUITests;
+			productName = JGUITextField_FormatNumberUITests;
+			productReference = 636596DF20E76EF900D6C31B /* JGUITextField_FormatNumberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		636596B420E76EF900D6C31B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = LHYD;
+				TargetAttributes = {
+					636596BB20E76EF900D6C31B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					636596D320E76EF900D6C31B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 636596BB20E76EF900D6C31B;
+					};
+					636596DE20E76EF900D6C31B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 636596BB20E76EF900D6C31B;
+					};
+				};
+			};
+			buildConfigurationList = 636596B720E76EF900D6C31B /* Build configuration list for PBXProject "JGUITextField_FormatNumber" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 636596B320E76EF900D6C31B;
+			productRefGroup = 636596BD20E76EF900D6C31B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				636596BB20E76EF900D6C31B /* JGUITextField_FormatNumber */,
+				636596D320E76EF900D6C31B /* JGUITextField_FormatNumberTests */,
+				636596DE20E76EF900D6C31B /* JGUITextField_FormatNumberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		636596BA20E76EF900D6C31B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636596CC20E76EF900D6C31B /* LaunchScreen.storyboard in Resources */,
+				636596C920E76EF900D6C31B /* Assets.xcassets in Resources */,
+				636596C720E76EF900D6C31B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636596D220E76EF900D6C31B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636596DD20E76EF900D6C31B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		636596B820E76EF900D6C31B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636596F320E76F2C00D6C31B /* UITextField+JGFormatNumber.m in Sources */,
+				636596C420E76EF900D6C31B /* ViewController.m in Sources */,
+				636596CF20E76EF900D6C31B /* main.m in Sources */,
+				636596C120E76EF900D6C31B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636596D020E76EF900D6C31B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636596D920E76EF900D6C31B /* JGUITextField_FormatNumberTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636596DB20E76EF900D6C31B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636596E420E76EF900D6C31B /* JGUITextField_FormatNumberUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		636596D620E76EF900D6C31B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 636596BB20E76EF900D6C31B /* JGUITextField_FormatNumber */;
+			targetProxy = 636596D520E76EF900D6C31B /* PBXContainerItemProxy */;
+		};
+		636596E120E76EF900D6C31B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 636596BB20E76EF900D6C31B /* JGUITextField_FormatNumber */;
+			targetProxy = 636596E020E76EF900D6C31B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		636596C520E76EF900D6C31B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				636596C620E76EF900D6C31B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		636596CA20E76EF900D6C31B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				636596CB20E76EF900D6C31B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		636596E620E76EF900D6C31B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		636596E720E76EF900D6C31B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		636596E920E76EF900D6C31B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JGUITextField_FormatNumber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liuheyidao.JGUITextField-FormatNumber";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		636596EA20E76EF900D6C31B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JGUITextField_FormatNumber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liuheyidao.JGUITextField-FormatNumber";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		636596EC20E76EF900D6C31B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JGUITextField_FormatNumberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liuheyidao.JGUITextField-FormatNumberTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JGUITextField_FormatNumber.app/JGUITextField_FormatNumber";
+			};
+			name = Debug;
+		};
+		636596ED20E76EF900D6C31B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JGUITextField_FormatNumberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liuheyidao.JGUITextField-FormatNumberTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JGUITextField_FormatNumber.app/JGUITextField_FormatNumber";
+			};
+			name = Release;
+		};
+		636596EF20E76EF900D6C31B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JGUITextField_FormatNumberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liuheyidao.JGUITextField-FormatNumberUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JGUITextField_FormatNumber;
+			};
+			name = Debug;
+		};
+		636596F020E76EF900D6C31B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JGUITextField_FormatNumberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liuheyidao.JGUITextField-FormatNumberUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JGUITextField_FormatNumber;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		636596B720E76EF900D6C31B /* Build configuration list for PBXProject "JGUITextField_FormatNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636596E620E76EF900D6C31B /* Debug */,
+				636596E720E76EF900D6C31B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		636596E820E76EF900D6C31B /* Build configuration list for PBXNativeTarget "JGUITextField_FormatNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636596E920E76EF900D6C31B /* Debug */,
+				636596EA20E76EF900D6C31B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		636596EB20E76EF900D6C31B /* Build configuration list for PBXNativeTarget "JGUITextField_FormatNumberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636596EC20E76EF900D6C31B /* Debug */,
+				636596ED20E76EF900D6C31B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		636596EE20E76EF900D6C31B /* Build configuration list for PBXNativeTarget "JGUITextField_FormatNumberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636596EF20E76EF900D6C31B /* Debug */,
+				636596F020E76EF900D6C31B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 636596B420E76EF900D6C31B /* Project object */;
+}
